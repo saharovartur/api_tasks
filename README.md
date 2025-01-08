@@ -8,10 +8,10 @@
 ![image](https://github.com/user-attachments/assets/b5057257-8b21-4115-a513-81f40c357fb1)
 
 ## Установка
-Клонируйте репозиторий;
-Установки зависимости: обратите внимание в проекте используется менеджер pipenv https://pipenv.pypa.io/en/latest/installation.html#installing-packages-for-your-project
-Выполните миграции: py manage.py makemigrations > python manage.py migrate ;
-Запустите сервер: py manage.py runserver .
+1. Клонируйте репозиторий;
+2. Установки зависимости: обратите внимание в проекте используется менеджер pipenv https://pipenv.pypa.io/en/latest/installation.html#installing-packages-for-your-project
+3. Выполните миграции: py manage.py makemigrations > python manage.py migrate ;
+4. Запустите сервер: py manage.py runserver .
 
 Endpoints: http://127.0.0.1:8000/tasks/ на GET и POST запросы. 
 
